@@ -4,7 +4,7 @@ Interfaz la cual permite manejar imágenes por medio de ensamblador, con el uso 
 
 El proyecto emplea distintos lenguajes de programación como: C++, Ensamblador (nasm), Qt.
 
-# Créditos
+### Créditos
 
 Sebastián Venegas Brenes
 
