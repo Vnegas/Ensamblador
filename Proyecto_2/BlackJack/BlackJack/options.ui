@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Options</class>
+ <widget class="QDialog" name="Options">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>350</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>350</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Cantidad de Jugadores</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>139</width>
+     <height>124</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Symbol</family>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="OnePlayer">
+      <property name="font">
+       <font>
+        <family>Rockwell</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Rockwell&quot;;
+background-color: rgb(130, 129, 122);
+border-color: rgb(0, 0, 0);
+color: rgb(61, 61, 61);
+selection-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Un Jugador</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="TwoPlayers">
+      <property name="font">
+       <font>
+        <family>Rockwell</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Rockwell&quot;;
+background-color: rgb(130, 129, 122);
+border-color: rgb(0, 0, 0);
+color: rgb(61, 61, 61);
+selection-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Dos Jugadores</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="TresJugadores">
+      <property name="font">
+       <font>
+        <family>Rockwell</family>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 11pt &quot;Rockwell&quot;;
+background-color: rgb(130, 129, 122);
+border-color: rgb(0, 0, 0);
+color: rgb(61, 61, 61);
+selection-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Tres Jugadores</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_opci">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>351</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_opci</zorder>
+  <zorder>layoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
