@@ -1,0 +1,14 @@
+release/game.o
+release/credits.o
+release/main.o
+release/mainwindow.o
+release/oneplayer.o
+release/options.o
+release/rules.o
+release/twoplayers.o
+release/moc_credits.o
+release/moc_mainwindow.o
+release/moc_oneplayer.o
+release/moc_options.o
+release/moc_rules.o
+release/moc_twoplayers.o
